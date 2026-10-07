@@ -1,5 +1,8 @@
 package com.tamilpodcast.app
 
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.ui.draw.clip
+import com.tamilpodcast.app.R
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
