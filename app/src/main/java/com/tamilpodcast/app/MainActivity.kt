@@ -1,4 +1,4 @@
-package com.tamilpodcast.app
+package com.aazhagam.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -64,7 +64,7 @@ fun TamilPodcastApp() {
                         selected = selectedTab == 2,
                         onClick = { selectedTab = 2 },
                         icon = { Text("♫") },
-                        label = { Text("Playlist") }
+                        label = { Text("தரவுகள்") }
                     )
 
                     NavigationBarItem(
@@ -109,7 +109,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     ) {
 
         Text(
-            text = "தமிழ் பாட்காஸ்ட்",
+            text = "தமிழ்தரவுகள்",
             style = MaterialTheme.typography.headlineMedium
         )
 
@@ -188,7 +188,7 @@ fun PlaylistScreen(modifier: Modifier = Modifier) {
     ) {
 
         Text(
-            text = "எனது Playlist",
+            text = "எனது தரவுகள்",
             style = MaterialTheme.typography.headlineMedium
         )
 
