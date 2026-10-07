@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.tamilpodcast.app"
+    namespace = "com.aazhagam.app"
     compileSdk = 36
 
     compileOptions {
