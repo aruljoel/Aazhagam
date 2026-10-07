@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.tamilpodcast.app"
+        applicationId = "com.aazhagam.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
